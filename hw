@@ -1,1 +1,9 @@
-echo Hello, World!
+#!/bin/bash
+#: Title	: hw
+#: Date		: 2024-02-10
+#: Author	: Audience Kayela
+#: Version	: 1.0
+#: Description	: Prints Hello, World!
+#: Options	: None
+
+printf "%s\n" "Hello, World!"
