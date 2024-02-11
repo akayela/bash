@@ -3,7 +3,7 @@
 #: Date		: 2024-02-10
 #: Author	: Audience Kayela
 #: Version	: 1.0
-#: Description	: Prints Hello, World!
+#: Description	: Print Hello and the first command-line argument 
 #: Options	: None
 
-printf "%s\n" "Hello, World!"
+printf "Hello, %s!\n" "$1"
